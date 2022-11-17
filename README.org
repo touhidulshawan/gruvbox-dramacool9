@@ -1,7 +1,7 @@
 #+title: Gruvbox Dark Theme For DramaCool9
 
 
-[[https://github.com/touhidulshawan/dotfiles/blob/main/.screenshots/gruvbox-dramacool9.png
+[[https://github.com/touhidulshawan/dotfiles/blob/main/.screenshots/gruvbox-dramacool9.png]]
 
 Gruvbox Dark theme for [[https://www.dramacool9.co/][DramaCool9]] based on [[https://github.com/morhetz/gruvbox][morhetz]] gruvbox colorscheme
 
