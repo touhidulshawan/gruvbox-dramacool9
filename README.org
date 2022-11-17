@@ -1,0 +1,10 @@
+#+title: Gruvbox Dark Theme For DramaCool9
+
+
+[[https://github.com/touhidulshawan/dotfiles/blob/main/.screenshots/gruvbox-dramacool9.png
+
+Gruvbox Dark theme for [[https://www.dramacool9.co/][DramaCool9]] based on [[https://github.com/morhetz/gruvbox][morhetz]] gruvbox colorscheme
+
+** Installation
++ First install stylus extension for [[https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne][Chrome]], [[https://addons.mozilla.org/pt-BR/firefox/addon/styl-us/][Firefox]]
++ Click to install 📦 [[https://userstyles.world/api/style/7353.user.css][Gruvbox-DramaCool9]]
