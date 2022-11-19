@@ -28,6 +28,9 @@
   .site-branding {
     background: var(--bg-primary);
   }
+  p{
+    color: var(--fg-primary);
+  }
 
   #masthead {
     display: flex;
