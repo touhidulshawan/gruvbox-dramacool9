@@ -6,6 +6,11 @@
 @author         Touhidul Shawan
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.dramacool9.co") {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     html {
         --bg-primary: #282828;
         --bg-secondary: #1d2021;
@@ -33,34 +38,62 @@
         color: var(--fg-primary);
     }
 
+    #page {
+        max-width: 960px;
+        margin: 10px auto;
+        border: 8px dashed var(--comment);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
     #masthead {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         background: var(--bg-primary);
+        margin: 8px 2px;
+    }
+    .header-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%
     }
 
     .site-title {
         display: none !important;
     }
-
     .search-main {
-        bottom: 20px !important;
+        right: auto;
     }
-
     .search-field {
-        background: var(--fg-primary) !important;
-        color: var(--bg-primary) !important;
-        border: 2px solid var(--blue) !important;
+        background: var(--comment) !important;
+        color: var(--fg-primary) !important;
+        border: 3px dashed var(--blue) !important;
+        width: 400px !important;
+        padding: 16px !important;
     }
 
     .search-submit {
-        background: var(--fg-primary) !important;
+        background: var(--yellow) !important;
+        color: var(--bg-primary);
+        width: 38px !important;
+        height: 38px !important;
+        top: 0 !Important;
+        right: 0 !Important;
+        border: 4px solid var(--yellow) !important;
+        font-size: 20px !important;
     }
     #main-navbar {
         background: var(--comment);
         margin-right: auto;
+    }
+
+    .main-navbar {
+        height: 38px !important;
     }
 
     #main-menu {
@@ -72,17 +105,18 @@
     #main-menu > li {
         border-right: none !important;
         background: var(--cyan);
-        border-radius: 4px;
+        border-radius: 2px;
     }
 
     #main-menu > li > a {
         color: var(--bg-secondary) !important;
+        padding: 10px 12px !important;
         transition: all 0.3s ease-in-out;
     }
 
     #main-menu > li > a:hover {
         background: var(--green);
-        border-radius: 4px;
+        border-radius: 2px;
     }
 
     #main-menu > li.current-menu-item {
@@ -97,8 +131,14 @@
         color: var(--magenta) !important;
     }
 
+    .main-menu > li:hover > ul,
+    .main-menu > li.focus > ul {
+        top: 35px !important;
+    }
+
     .sub-menu {
-        background: var(--bg-secondary) !important;
+        background: var(--bg-primary) !important;
+        border: 2px dashed var(--orange) !important;
     }
 
     .menu-item:hover {
@@ -120,13 +160,24 @@
     .content-area {
         float: none;
         width: 77.4%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     main {
         width: 100%;
+    }
+
+    .site-content {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .site-info {
+        padding: 0px !important;
+        margin-bottom: 0px !important;
     }
 
     .tab-content {
@@ -149,7 +200,8 @@
         box-shadow: var(--shadow);
         transition: all 0.2s ease-in-out;
     }
-    ul.box > li:hover {
+    ul.box > li:hover,
+    li:focus {
         border-color: var(--magenta);
         transform: translateY(5px);
     }
@@ -191,13 +243,15 @@
     }
 
     .site-footer {
+        width: 100%;
         background: var(--bg-primary);
-        border-top: 2px solid var(--bg-secondary);
+        border-top: 8px dotted var(--comment);
     }
 
     .site-footer > .footer-copy > .container > .row {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .site-footer > .footer-copy > .container > .row > .col-6 > ul {
@@ -245,7 +299,7 @@
 
     .wrapper {
         background: var(--bg-primary);
-        border-color: var(--comment);
+        border: none !important;
     }
 
     #all-episodes > ul > li:hover {
@@ -309,5 +363,16 @@
     .submit {
         background: var(--yellow) !important;
         color: var(--bg-primary) !important;
+    }
+
+    .more-link > a {
+        background: var(--blue) !important;
+        padding: 8px 12px !important;
+        color: var(--fg-primary) !important;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0.4px;
+        border: 2px solid var(--blue);
+        border-radius: 4px;
     }
 }
