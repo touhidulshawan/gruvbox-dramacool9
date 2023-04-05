@@ -2,10 +2,10 @@
 @name           Gruvbox-Dramacool9
 @namespace      github.com/touhidulshawan/gruvbox-dramacool9
 @version        1.0.3.2
-@description    Gruvbox Dark Theme for Dramacool9.co
+@description    Gruvbox Dark Theme for Dramacool9.pw
 @author         Touhidul Shawan
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.dramacool9.co") {
+@-moz-document url-prefix("https://www.dramacool9.pw") {
     * {
         margin: 0;
         padding: 0;
