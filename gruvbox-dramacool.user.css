@@ -510,6 +510,7 @@
         color: #d5c4a1;
         letter-spacing: 0.15em;
         font-size: 1.3em;
+        cursor: default;
     }
     .episode_nav > a {
         background: #d79921;
