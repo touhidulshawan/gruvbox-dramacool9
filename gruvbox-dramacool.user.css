@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Gruvbox-Dramacool9
 @namespace      github.com/touhidulshawan/gruvbox-dramacool9
-@version        2.1
+@version        2.1.1
 @description    Gruvbox Dark Theme for Dramacool
 @author         Touhidul Shawan
 ==/UserStyle== */
@@ -494,5 +494,38 @@
             border: 3px solid var(--blue);
             border-radius: 10px;
         }
+    }
+    /* next,previous,episode level on player */
+    .episode_nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .episode_nav > span {
+        padding: 5px 15px;
+        background: #282828;
+        color: #d5c4a1;
+        letter-spacing: 0.15em;
+        font-size: 1.3em;
+    }
+    .episode_nav > a {
+        background: #d79921;
+        padding: 5px 15px;
+        text-align: center;
+        font-size: 1.2em;
+        letter-spacing: 0.13em;
+        border: 2px solid #ebdbb2;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: all 0.18s steps(4, start);
+    }
+    .episode_nav > a:hover {
+        background: #282828;
+        border-color: #ebdbb2;
+        letter-spacing: 0.2em;
+        text-shadow: none !important;
     }
 }
