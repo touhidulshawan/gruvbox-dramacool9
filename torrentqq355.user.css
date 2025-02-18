@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           Gruvbox-Torrentqq355
+@namespace      github.com/touhidulshawan/gruvbox-dramacool9
+@version        1.0
+@description    Gruvbox Dark Theme for torrent website called torrentqq355.com
+@author         Touhidul Shawan
+==/UserStyle== */
 @-moz-document url-prefix("https://torrentqq355.com") {
 .at-banner {
     display: none !important;
