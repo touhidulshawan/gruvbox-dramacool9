@@ -1,0 +1,119 @@
+.at-banner {
+    display: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #fbf1c7;
+}
+
+#thema_wrapper,
+body,
+.at-lnb,
+.at-head {
+    background: #282828;
+}
+.m-menu {
+    background: #3c3836;
+    border: 2px dashed #d65d0e;
+}
+
+a:link {
+    color: #fbf1c7;
+    transition: all 0.28s ease-in-out;
+}
+
+a:link:hover {
+    color: #d3869b;
+    text-decoration: overline;
+}
+.rank_group {
+    background: #282828;
+    color: #ebdbb2;
+}
+
+.box-content {
+    background: #3c3836;
+    color: #fbf1c7;
+    border-color: #458588;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.box-header {
+    background: #1d2021;
+    color: #fbf1c7;
+    border-color: #076678;
+}
+td {
+    color: #ebdbb2;
+}
+.btn-torrent {
+    background-color: #8f3f71 !important;
+}
+
+.btn-torrent:hover {
+    text-decoration: none !important;
+    color: #d5c4a1 !important;
+}
+.btn-default {
+    background: #d65d0e !important;
+    color: #fbf1c7 !important;
+    border: 2px solid #fe8019;
+}
+
+.at-footer {
+    background: #665c54;
+    border-top: 2px solid #d5c4a1;
+    color: #ebdbb2;
+}
+.at-footer .at-links {
+    border-top: none;
+    border-bottom: none;
+}
+.at-footer .at-links ul > li > a {
+    color: #ebdbb2;
+}
+.at-footer .at-copyright {
+    color: #fbf1c7;
+}
+.at-footer .at-copyright strong {
+    color: #fabd2f;
+}
+
+.program .w-col {
+    background: #1d2021;
+    border-right: 1px solid #282828;
+}
+.program .w-col a {
+    color: #b16286;
+}
+.program .w-col a:hover {
+    background: #504945;
+}
+.text-muted {
+    color: #a89984 !important;
+}
+.panel {
+    background: #1d2021;
+}
+.view-head .panel-heading {
+    background: #3c3836;
+    color: #ebdbb2;
+}
+.list-board .list-body li.bg {
+    background: #504945;
+}
+.list-board .list-body li:hover {
+    background: #7c6f64;
+}
+.list-board .list-body li {
+    border: 1px dashed #d79921;
+}
+.div-head > span,
+.list-board .list-body li > div {
+    color: #ebdbb2;
+}
